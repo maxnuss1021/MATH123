@@ -17,5 +17,5 @@ model <- lm(price ~ year + odometer + condition, data = data)
 # Check the summary of the model to interpret the coefficients
 summary(model)
 
-# Optionally, plot some diagnostics
+# Plot
 plot(model)
